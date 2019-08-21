@@ -16,7 +16,7 @@ public class Stacks {
 		stack.push("top");
 		printStack(stack);
 		
-		stack.pop(); //item that is on top of the stacks gets taken off
+		stack.pop(); //item that is on the top of the stacks gets taken off
 		printStack(stack);
 		stack.pop();
 		printStack(stack);
