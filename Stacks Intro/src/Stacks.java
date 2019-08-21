@@ -9,21 +9,21 @@ public class Stacks {
 		
 		Stack<String> stack = new Stack<String> ();
 		
-		stack.push("bottom"); //adds to the top of the stack
+		stack.push("bottom"); //adds item to the top of the stack
 		printStack(stack);
 		stack.push("middle");
 		printStack(stack);
 		stack.push("top");
 		printStack(stack);
 		
-		stack.pop(); //top of the stacks gets taken off
+		stack.pop(); //item that is on top of the stacks gets taken off
 		printStack(stack);
 		stack.pop();
 		printStack(stack);
 		stack.pop();
 		printStack(stack);
 	}
-	private static void printStack(Stack<String> s) { //private can be used since only the class is using it
+	private static void printStack(Stack<String> s) { //only this class can use this method
 		if(s.isEmpty()) {
 			System.out.print("There is nothing");
 		}else {
