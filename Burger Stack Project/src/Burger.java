@@ -1,4 +1,4 @@
-////////////////Created by Fayed Raza
+//Created by Fayed Raza
 public class Burger {
 	//purpose is to make and check a burger using Stacks
 String original = "";
@@ -15,7 +15,7 @@ String original = "";
 	}
 	
 	
-	//adds item to the top of the list
+	//adds layer to the top of the stack
 	public void push(String s) {
 		try {
 			System.out.println();
@@ -32,7 +32,7 @@ String original = "";
 		}
 	}
 	
-	//pops of the item that is top of the list
+	//pops of the layer that is on top of the stack
 	public void pop() {
 		try {
 		if(isEmpty()) {
@@ -56,8 +56,9 @@ String original = "";
 		}
 	}
 	
-	/*checks if list is empty
-	 * and used by other methods
+	/*checks if there are layers on the stack
+	 * 
+	 * this method is used by other methods
 	 * 
 	 */
 	private boolean isEmpty() {
@@ -69,7 +70,7 @@ String original = "";
 		
 	}
 	
-	//returns the top of the item
+	//returns the layer that is on top of the stack
 	private void peak() {
 		System.out.println();
 		try {
@@ -129,8 +130,8 @@ String original = "";
 		
 	}
 	
-	/*used in the check burger method to print original burger and
-	 * new burger if the burger is not layered
+	/*used in the check burger method to print layers of the original burger and
+	 * layers of the new burger if the burger is not layered
 	 * correctly 
 	 */
 		private void printOA() {
@@ -145,7 +146,7 @@ String original = "";
 		}
 	}
 	
-	//print all the layers of the burger
+	//prints all of the layers of the burger
 	public void printLayers() {
 		System.out.println();
 		System.out.println();
