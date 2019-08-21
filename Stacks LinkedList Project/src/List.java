@@ -53,7 +53,7 @@ public void peak() throws Exception { //returns the object that is on the top of
 	
 }
 
-private Boolean isEmpty() { //returns if a stack is empty
+private Boolean isEmpty() { //returns true if a stack is empty or otherwise false
 	
 	return head == null;
 	
