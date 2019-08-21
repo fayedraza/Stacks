@@ -56,7 +56,7 @@ String original = "";
 		}
 	}
 	
-	/*checks if there are layers on the stack
+	/*checks if the stack is empty
 	 * 
 	 * this method is used by other methods
 	 * 
